@@ -14,19 +14,22 @@
   </head>
   <body>
     <div class="container-fluid text-center">
-      <div class="card">
+      <div class="card" id="card">
         <span class="top-symbol" id="top-suit">TOP-SUIT</span>
         <span class="number w-100" id="card-number"></span>
         <span class="bottom-symbol" id="bottom-suit">BOTTOM-SUIT</span>
       </div>
-      <div class="fixed-bottom p-4 mx-auto id="bottom1">
+      <div class="fixed-bottom p-4 mx-auto" id="bottom1">
         Made with ❤️ by
-        <a class="text-light"
-        href="https://github.com/deborahdobles">Deborah Dobles</a>
+        <a class="text-light" href="https://github.com/deborahdobles"
+          >Deborah Dobles</a
+        >
       </div>
-        <button onClick="window.location.reload();" class="btn-secondary">Refresh</button>
-      </div>
-    </div>
+      <button onClick="window.location.reload();" class="btn-secondary">
+        Refresh
+      </button>
+      <input type="text" id="card-width" placeholder="Card Width" />
+      <input type="text" id="card-height" placeholder="Card Height" />
     </div>
   </body>
 </html>
